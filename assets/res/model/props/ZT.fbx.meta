@@ -1,0 +1,126 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7bf56d61-cd34-4855-93be-b3b93463f459",
+  "files": [],
+  "subMetas": {
+    "21957": {
+      "importer": "gltf-material",
+      "uuid": "7bf56d61-cd34-4855-93be-b3b93463f459@21957",
+      "displayName": "",
+      "id": "21957",
+      "name": "3.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ad6cd": {
+      "importer": "gltf-mesh",
+      "uuid": "7bf56d61-cd34-4855-93be-b3b93463f459@ad6cd",
+      "displayName": "",
+      "id": "ad6cd",
+      "name": "ZT.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1cdc4": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7bf56d61-cd34-4855-93be-b3b93463f459@1cdc4",
+      "displayName": "",
+      "id": "1cdc4",
+      "name": "贴图 #3.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "bfae8": {
+      "importer": "texture",
+      "uuid": "7bf56d61-cd34-4855-93be-b3b93463f459@bfae8",
+      "displayName": "",
+      "id": "bfae8",
+      "name": "贴图 #3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7bf56d61-cd34-4855-93be-b3b93463f459@1cdc4"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2fab7": {
+      "importer": "gltf-scene",
+      "uuid": "7bf56d61-cd34-4855-93be-b3b93463f459@2fab7",
+      "displayName": "",
+      "id": "2fab7",
+      "name": "ZT.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #3",
+        "uri": "7bf56d61-cd34-4855-93be-b3b93463f459@1cdc4"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "7bf56d61-cd34-4855-93be-b3b93463f459@2fab7",
+    "assetFinder": {
+      "meshes": [
+        "7bf56d61-cd34-4855-93be-b3b93463f459@ad6cd"
+      ],
+      "skeletons": [],
+      "textures": [
+        "7bf56d61-cd34-4855-93be-b3b93463f459@bfae8"
+      ],
+      "materials": [
+        "7bf56d61-cd34-4855-93be-b3b93463f459@21957"
+      ],
+      "scenes": [
+        "7bf56d61-cd34-4855-93be-b3b93463f459@2fab7"
+      ]
+    }
+  }
+}

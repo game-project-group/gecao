@@ -1,0 +1,126 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "47d345de-3dd7-448e-8005-1297ef875379",
+  "files": [],
+  "subMetas": {
+    "5ef7c": {
+      "importer": "gltf-mesh",
+      "uuid": "47d345de-3dd7-448e-8005-1297ef875379@5ef7c",
+      "displayName": "",
+      "id": "5ef7c",
+      "name": "LanGan_Ab.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "425ef": {
+      "importer": "gltf-embeded-image",
+      "uuid": "47d345de-3dd7-448e-8005-1297ef875379@425ef",
+      "displayName": "",
+      "id": "425ef",
+      "name": "贴图 #2.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "59f96": {
+      "importer": "texture",
+      "uuid": "47d345de-3dd7-448e-8005-1297ef875379@59f96",
+      "displayName": "",
+      "id": "59f96",
+      "name": "贴图 #2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "47d345de-3dd7-448e-8005-1297ef875379@425ef"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ba811": {
+      "importer": "gltf-material",
+      "uuid": "47d345de-3dd7-448e-8005-1297ef875379@ba811",
+      "displayName": "",
+      "id": "ba811",
+      "name": "youanzong.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d848a": {
+      "importer": "gltf-scene",
+      "uuid": "47d345de-3dd7-448e-8005-1297ef875379@d848a",
+      "displayName": "",
+      "id": "d848a",
+      "name": "LanGan_Ab.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #2",
+        "uri": "47d345de-3dd7-448e-8005-1297ef875379@425ef"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "47d345de-3dd7-448e-8005-1297ef875379@d848a",
+    "assetFinder": {
+      "meshes": [
+        "47d345de-3dd7-448e-8005-1297ef875379@5ef7c"
+      ],
+      "skeletons": [],
+      "textures": [
+        "47d345de-3dd7-448e-8005-1297ef875379@59f96"
+      ],
+      "materials": [
+        "47d345de-3dd7-448e-8005-1297ef875379@ba811"
+      ],
+      "scenes": [
+        "47d345de-3dd7-448e-8005-1297ef875379@d848a"
+      ]
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b80476e6-7b7d-412f-8cbd-150e809abad8",
+  "files": [],
+  "subMetas": {
+    "cf595": {
+      "importer": "gltf-mesh",
+      "uuid": "b80476e6-7b7d-412f-8cbd-150e809abad8@cf595",
+      "displayName": "",
+      "id": "cf595",
+      "name": "GongMen.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "425ef": {
+      "importer": "gltf-embeded-image",
+      "uuid": "b80476e6-7b7d-412f-8cbd-150e809abad8@425ef",
+      "displayName": "",
+      "id": "425ef",
+      "name": "贴图 #2.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "59f96": {
+      "importer": "texture",
+      "uuid": "b80476e6-7b7d-412f-8cbd-150e809abad8@59f96",
+      "displayName": "",
+      "id": "59f96",
+      "name": "贴图 #2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b80476e6-7b7d-412f-8cbd-150e809abad8@425ef"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ba811": {
+      "importer": "gltf-material",
+      "uuid": "b80476e6-7b7d-412f-8cbd-150e809abad8@ba811",
+      "displayName": "",
+      "id": "ba811",
+      "name": "youanzong.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bd25f": {
+      "importer": "gltf-scene",
+      "uuid": "b80476e6-7b7d-412f-8cbd-150e809abad8@bd25f",
+      "displayName": "",
+      "id": "bd25f",
+      "name": "GongMen.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #2",
+        "uri": "b80476e6-7b7d-412f-8cbd-150e809abad8@425ef"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "b80476e6-7b7d-412f-8cbd-150e809abad8@bd25f",
+    "assetFinder": {
+      "meshes": [
+        "b80476e6-7b7d-412f-8cbd-150e809abad8@cf595"
+      ],
+      "skeletons": [],
+      "textures": [
+        "b80476e6-7b7d-412f-8cbd-150e809abad8@59f96"
+      ],
+      "materials": [
+        "b80476e6-7b7d-412f-8cbd-150e809abad8@ba811"
+      ],
+      "scenes": [
+        "b80476e6-7b7d-412f-8cbd-150e809abad8@bd25f"
+      ]
+    },
+    "materials": {
+      "b80476e6-7b7d-412f-8cbd-150e809abad8@ba811": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "1baf0fc9-befa-459c-8bdd-af1a450a0319",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 203,
+              "g": 236,
+              "b": 236,
+              "a": 255
+            },
+            "roughness": 0.871,
+            "metallic": 0,
+            "mainTexture": {
+              "__uuid__": "b80476e6-7b7d-412f-8cbd-150e809abad8@59f96",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}
