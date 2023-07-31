@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.1",
+  "ver": "2.3.0",
   "importer": "fbx",
   "imported": true,
   "uuid": "16ecacc1-8af3-4ca0-be27-5369669df712",
@@ -69,7 +69,7 @@
       "uuid": "16ecacc1-8af3-4ca0-be27-5369669df712@0d683",
       "displayName": "",
       "id": "0d683",
-      "name": "arrow.FBX.prefab",
+      "name": "arrow.prefab",
       "userData": {
         "gltfIndex": 0
       },
